@@ -1,9 +1,9 @@
 title: "Puyuan Zhang"
-position: "Incoming M.S. Student"
+position: "M.S. Student, School of Mechanical Engineering"
 affiliation: "Shanghai Jiao Tong University"
-email: "YOUR_SJTU_EMAIL"
+email: "pyzhang1@sjtu.edu.cn"
 keywords: "Puyuan Zhang, robotics, perception, autonomous navigation, world models, 3D scene representation, Shanghai Jiao Tong University"
-description: "Puyuan Zhang — Incoming M.S. Student at Shanghai Jiao Tong University. Research interests in robot perception, predictive world models, active perception, and efficient 3D scene representations."
+description: "Puyuan Zhang — M.S. Student at Shanghai Jiao Tong University, School of Mechanical Engineering. Research interests in robot perception, predictive world models, active perception, and efficient 3D scene representations."
 
 url: "https://patrick1159.github.io"
 baseurl: ""
@@ -19,7 +19,7 @@ plugins:
 author: "Puyuan Zhang"
 
 # Links
-github_link: "https://github.com/YOUR_GITHUB_USERNAME"
+github_link: "https://github.com/patrick1159"
 cv_link: ""
 
 # Appearance
