@@ -24,8 +24,8 @@ cv_link: ""
 
 # Appearance
 avatar: "./assets/img/avatar.svg"
-favicon: "./assets/img/favicon.png"
-favicon_dark: "./assets/img/favicon-dark.png"
+favicon: "./assets/img/favicon.svg"
+favicon_dark: "./assets/img/favicon-dark.svg"
 
 auto_dark_mode: true
 font: "Sans Serif"

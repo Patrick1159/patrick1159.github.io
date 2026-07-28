@@ -19,7 +19,7 @@ My current focus is on developing perception systems that can reason about futur
 ## Education
 
 - **M.S. Student**, Shanghai Jiao Tong University  
-  School of Mechanical Engineering &nbsp;·&nbsp; YYYY–YYYY
+  School of Mechanical Engineering &nbsp;·&nbsp; 2026–present
 
 - **B.Eng.**, Shanghai Jiao Tong University  
   Mechanical Engineering &nbsp;·&nbsp; 2022–2026
