@@ -1,0 +1,14 @@
+{% assign published_posts = site.posts | where: "published", true %}
+{% if published_posts.size > 0 %}
+<section class="recent-writing">
+  <ul class="recent-posts-list">
+    {% for post in published_posts limit:3 %}
+      <li>
+        <span class="recent-post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  <p class="view-all"><a href="{{ '/blog/' | relative_url }}">View all posts →</a></p>
+</section>
+{% endif %}

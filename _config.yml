@@ -1,0 +1,58 @@
+title: "Puyuan Zhang"
+position: "Incoming M.S. Student"
+affiliation: "Shanghai Jiao Tong University"
+email: "YOUR_SJTU_EMAIL"
+keywords: "Puyuan Zhang, robotics, perception, autonomous navigation, world models, 3D scene representation, Shanghai Jiao Tong University"
+description: "Puyuan Zhang — Incoming M.S. Student at Shanghai Jiao Tong University. Research interests in robot perception, predictive world models, active perception, and efficient 3D scene representations."
+
+url: "https://patrick1159.github.io"
+baseurl: ""
+
+remote_theme: yaoyao-liu/minimal-light
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Author
+author: "Puyuan Zhang"
+
+# Links
+github_link: "https://github.com/YOUR_GITHUB_USERNAME"
+cv_link: ""
+
+# Appearance
+avatar: "./assets/img/avatar.svg"
+favicon: "./assets/img/favicon.png"
+favicon_dark: "./assets/img/favicon-dark.png"
+
+auto_dark_mode: true
+font: "Sans Serif"
+enable_footnote: false
+
+# Google Analytics (remove if unused)
+google_analytics: ""
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+
+# Blog defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      lang: en
+      published: true
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

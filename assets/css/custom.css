@@ -1,0 +1,485 @@
+/* ===== Navigation ===== */
+.site-nav {
+  margin-top: 0.8em;
+  padding-top: 0.6em;
+  border-top: 1px solid #e8e8e8;
+}
+
+.site-nav .nav-link {
+  display: block;
+  padding: 0.25em 0;
+  color: #666;
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: color 0.15s;
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link.active {
+  color: #267CB9;
+}
+
+.site-nav .nav-link.active {
+  font-weight: 600;
+}
+
+/* ===== Blog Index ===== */
+.blog-index h1 {
+  margin-bottom: 0.15em;
+}
+
+.blog-description {
+  color: #666;
+  font-size: 0.95em;
+  margin-bottom: 1.8em;
+}
+
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-item {
+  margin-bottom: 1.8em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #eee;
+}
+
+.post-item:last-child {
+  border-bottom: none;
+}
+
+.post-date {
+  display: block;
+  font-size: 0.82em;
+  color: #888;
+  margin-bottom: 0.2em;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", Menlo, Consolas, monospace;
+}
+
+.post-link {
+  font-size: 1.15em;
+  font-weight: 600;
+  color: #267CB9;
+  text-decoration: none;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+}
+
+.post-excerpt {
+  color: #555;
+  font-size: 0.9em;
+  line-height: 1.6;
+  margin-top: 0.3em;
+  margin-bottom: 0.4em;
+}
+
+/* ===== Tags ===== */
+.post-tags {
+  margin-top: 0.3em;
+}
+
+.post-tag {
+  display: inline-block;
+  background: #eef4f8;
+  color: #4a7a9e;
+  font-size: 0.75em;
+  padding: 0.15em 0.6em;
+  border-radius: 3px;
+  margin-right: 0.4em;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", Menlo, Consolas, monospace;
+}
+
+/* ===== Post Layout ===== */
+.post {
+  max-width: 720px;
+}
+
+.post-header {
+  margin-bottom: 1.8em;
+}
+
+.post-title {
+  margin-bottom: 0.2em;
+  line-height: 1.25;
+}
+
+.post-meta {
+  color: #888;
+  font-size: 0.9em;
+}
+
+.post-meta .post-date {
+  display: inline;
+  margin-bottom: 0;
+}
+
+.post-meta .post-tags {
+  margin-top: 0.3em;
+}
+
+/* Post body */
+.post-content {
+  line-height: 1.7;
+  font-size: 1em;
+  color: #333;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+  line-height: 1.3;
+}
+
+.post-content h1 { font-size: 1.6em; }
+.post-content h2 { font-size: 1.35em; padding-bottom: 0.3em; border-bottom: 1px solid #eee; }
+.post-content h3 { font-size: 1.15em; }
+.post-content h4 { font-size: 1.05em; }
+
+.post-content p {
+  margin: 1em 0;
+}
+
+.post-content a {
+  color: #267CB9;
+  text-decoration: none;
+}
+
+.post-content a:hover {
+  text-decoration: underline;
+}
+
+.post-content ul,
+.post-content ol {
+  margin: 0.8em 0;
+  padding-left: 1.8em;
+}
+
+.post-content li {
+  margin: 0.3em 0;
+}
+
+.post-content blockquote {
+  margin: 1.2em 0;
+  padding: 0.4em 1em;
+  border-left: 3px solid #267CB9;
+  color: #555;
+  background: #f8f9fa;
+}
+
+.post-content blockquote p {
+  margin: 0.5em 0;
+}
+
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.2em auto;
+}
+
+.post-content code {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", Menlo, Consolas, monospace;
+  background: #f0f0f0;
+  padding: 0.15em 0.35em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.post-content pre {
+  background: #2d2d2d;
+  color: #ccc;
+  padding: 1em 1.2em;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin: 1.2em 0;
+  line-height: 1.5;
+  font-size: 0.88em;
+}
+
+.post-content pre code {
+  background: none;
+  padding: 0;
+  color: inherit;
+  font-size: inherit;
+}
+
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.2em 0;
+}
+
+.post-content th,
+.post-content td {
+  border: 1px solid #ddd;
+  padding: 0.5em 0.8em;
+  text-align: left;
+}
+
+.post-content th {
+  background: #f5f5f5;
+  font-weight: 600;
+}
+
+.post-content hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2em 0;
+}
+
+/* ===== Post Footer / Navigation ===== */
+.post-footer {
+  margin-top: 2.5em;
+  padding-top: 1.5em;
+  border-top: 1px solid #eee;
+}
+
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  font-size: 0.9em;
+}
+
+.post-nav a {
+  color: #267CB9;
+  text-decoration: none;
+  max-width: 48%;
+}
+
+.post-nav a:hover {
+  text-decoration: underline;
+}
+
+.post-back {
+  font-size: 0.9em;
+}
+
+.post-back a {
+  color: #888;
+  text-decoration: none;
+}
+
+.post-back a:hover {
+  color: #267CB9;
+}
+
+/* ===== Recent Writing (Homepage) ===== */
+.recent-writing {
+  margin-top: 1.2em;
+}
+
+.recent-posts-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recent-posts-list li {
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+
+.recent-post-date {
+  display: inline-block;
+  font-size: 0.82em;
+  color: #888;
+  min-width: 6em;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", Menlo, Consolas, monospace;
+}
+
+.recent-posts-list a {
+  color: #267CB9;
+  text-decoration: none;
+}
+
+.recent-posts-list a:hover {
+  text-decoration: underline;
+}
+
+.view-all {
+  margin-top: 0.6em;
+  font-size: 0.9em;
+}
+
+.view-all a {
+  color: #267CB9;
+  text-decoration: none;
+}
+
+/* ===== Empty State ===== */
+.empty-state {
+  padding: 2em 0;
+  color: #888;
+  font-style: italic;
+}
+
+/* ===== Back Link ===== */
+.back-link {
+  margin-top: 2em;
+}
+
+.back-link a {
+  color: #888;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.back-link a:hover {
+  color: #267CB9;
+}
+
+/* ===== Dark Mode ===== */
+@media (prefers-color-scheme: dark) {
+
+  /* Navigation */
+  .site-nav {
+    border-top-color: #333;
+  }
+
+  .site-nav .nav-link {
+    color: #999;
+  }
+
+  .site-nav .nav-link:hover,
+  .site-nav .nav-link.active {
+    color: rgb(62, 183, 240);
+  }
+
+  /* Blog index */
+  .blog-description {
+    color: #999;
+  }
+
+  .post-item {
+    border-bottom-color: #333;
+  }
+
+  .post-date,
+  .recent-post-date {
+    color: #888;
+  }
+
+  .post-excerpt {
+    color: #aaa;
+  }
+
+  .post-link {
+    color: rgb(62, 183, 240);
+  }
+
+  /* Tags */
+  .post-tag {
+    background: #2a3040;
+    color: #8ab8d8;
+  }
+
+  /* Post body */
+  .post-content {
+    color: #dadbdf;
+  }
+
+  .post-content h2 {
+    border-bottom-color: #333;
+  }
+
+  .post-content blockquote {
+    background: #22232b;
+    color: #aaa;
+    border-left-color: rgb(62, 183, 240);
+  }
+
+  .post-content code {
+    background: #2a2b33;
+    color: #dadbdf;
+  }
+
+  .post-content pre {
+    background: #1a1b22;
+    color: #ccc;
+  }
+
+  .post-content th {
+    background: #2a2b33;
+  }
+
+  .post-content th,
+  .post-content td {
+    border-color: #333;
+  }
+
+  .post-content hr {
+    border-top-color: #333;
+  }
+
+  /* Post footer */
+  .post-footer {
+    border-top-color: #333;
+  }
+
+  .post-meta {
+    color: #888;
+  }
+
+  /* Empty state */
+  .empty-state {
+    color: #888;
+  }
+
+  /* Back link */
+  .back-link a,
+  .post-back a {
+    color: #888;
+  }
+
+  .back-link a:hover,
+  .post-back a:hover {
+    color: rgb(62, 183, 240);
+  }
+}
+
+/* ===== Mobile ===== */
+@media screen and (max-width: 960px) {
+  .post {
+    max-width: 100%;
+  }
+
+  .recent-post-date {
+    display: block;
+    min-width: auto;
+    margin-bottom: 0.1em;
+  }
+
+  .post-nav {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+
+  .post-nav a {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .post-content {
+    font-size: 0.95em;
+  }
+
+  .post-title {
+    font-size: 1.4em;
+  }
+
+  .post-item {
+    margin-bottom: 1.2em;
+    padding-bottom: 1em;
+  }
+}
