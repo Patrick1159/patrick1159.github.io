@@ -273,17 +273,60 @@
   color: #267CB9;
 }
 
-/* ===== Publication Figure (Homepage) ===== */
-.pub-figure {
+/* ===== Publication Entry (Homepage) ===== */
+.publication {
+  display: flex;
+  gap: 1.2em;
+  align-items: flex-start;
   margin: 0.6em 0 1.2em;
-  text-align: center;
 }
 
-.pub-figure img {
-  max-width: 100%;
+.pub-thumb {
+  flex: 0 0 180px;
+  max-width: 180px;
+}
+
+.pub-thumb img {
+  width: 100%;
   height: auto;
+  display: block;
   border: 1px solid #eee;
   border-radius: 4px;
+}
+
+.pub-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-title {
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.pub-authors {
+  font-size: 0.95em;
+  margin-top: 0.25em;
+}
+
+.pub-venue {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 0.2em;
+}
+
+.pub-links {
+  margin-top: 0.35em;
+  font-size: 0.9em;
+}
+
+.pub-links a {
+  color: #267CB9;
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  text-decoration: underline;
 }
 
 /* ===== Recent Writing (Homepage) ===== */
@@ -434,9 +477,17 @@
     border-top-color: #333;
   }
 
-  /* Publication figure */
-  .pub-figure img {
+  /* Publication entry */
+  .pub-thumb img {
     border-color: #333;
+  }
+
+  .pub-venue {
+    color: #999;
+  }
+
+  .pub-links a {
+    color: rgb(62, 183, 240);
   }
 
   /* Post footer */
@@ -499,5 +550,10 @@
   .post-item {
     margin-bottom: 1.2em;
     padding-bottom: 1em;
+  }
+
+  .pub-thumb {
+    flex-basis: 110px;
+    max-width: 110px;
   }
 }
