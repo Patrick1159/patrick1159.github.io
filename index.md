@@ -26,10 +26,16 @@ My current focus is on developing perception systems that can reason about futur
 
 ## Publications
 
+<figure class="pub-figure">
+  <a href="https://patrick1159.github.io/gardGS-page/" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/gard-gs-teaser.png' | relative_url }}" alt="G²ARD-GS teaser" loading="lazy">
+  </a>
+</figure>
+
 - **G<sup>2</sup>ARD-GS: Geometry-Guided Anchor-Regularized Gaussian Splatting Distillation**  
   **Puyuan Zhang**, Jianming Huang, Wenkai Ye, Wei Dong  
   *arXiv preprint arXiv:2608.05704*, 2026.  
-  [arXiv](https://arxiv.org/abs/2608.05704) · [PDF](https://arxiv.org/pdf/2608.05704)
+  [Project](https://patrick1159.github.io/gardGS-page/) · [arXiv](https://arxiv.org/abs/2608.05704) · [PDF](https://arxiv.org/pdf/2608.05704)
 
 ## Recent Writing
 

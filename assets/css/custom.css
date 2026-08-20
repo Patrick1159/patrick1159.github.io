@@ -273,6 +273,19 @@
   color: #267CB9;
 }
 
+/* ===== Publication Figure (Homepage) ===== */
+.pub-figure {
+  margin: 0.6em 0 1.2em;
+  text-align: center;
+}
+
+.pub-figure img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
 /* ===== Recent Writing (Homepage) ===== */
 .recent-writing {
   margin-top: 1.2em;
@@ -419,6 +432,11 @@
 
   .post-content hr {
     border-top-color: #333;
+  }
+
+  /* Publication figure */
+  .pub-figure img {
+    border-color: #333;
   }
 
   /* Post footer */
